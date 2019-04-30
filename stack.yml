@@ -1,0 +1,9 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  uptime:
+    lang: python3
+    handler: ./uptime
+    image: alexellis2/uptime:latest
