@@ -7,3 +7,4 @@ functions:
     lang: python3
     handler: ./uptime
     image: alexellis2/uptime:latest
+
