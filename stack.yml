@@ -8,3 +8,7 @@ functions:
     handler: ./uptime
     image: alexellis2/uptime:latest
 
+  pbkdf2:
+    lang: node10-express
+    handler: ./pbkdf2
+    image: pbkdf2:latest
