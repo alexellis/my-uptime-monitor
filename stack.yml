@@ -12,3 +12,4 @@ functions:
     lang: node10-express
     handler: ./pbkdf2
     image: pbkdf2:latest
+
